@@ -1,0 +1,18 @@
+# Packages & Dependencies
+# -------------------------------
+node_modules/
+
+# Credentials & Keys
+# -------------------------------
+.env
+
+# Developers' Notes
+# -------------------------------
+*.md
+!README.md
+
+# Everything Else
+# -------------------------------
+.lib
+.aws
+.DS_Store

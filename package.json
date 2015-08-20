@@ -1,0 +1,34 @@
+{
+  "name": "poppyGP-api",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poppyGP/poppyGP-api.git"
+  },
+  "author": "Jonathan Ho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poppyGP/poppyGP-api/issues"
+  },
+  "homepage": "https://github.com/poppyGP/poppyGP-api#readme",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "aws-sdk": "^2.1.45",
+    "bcryptjs": "^2.2.1",
+    "dotenv": "^1.2.0",
+    "dynamodb-doc": "^1.0.0",
+    "jsonwebtoken": "^5.0.4",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "node-uuid": "^1.4.3",
+    "shortid": "^2.2.2"
+  }
+}
